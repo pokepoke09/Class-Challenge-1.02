@@ -22,6 +22,7 @@ body{
 
 .test {
     color: rgb(255, 255, 255);
+    word-spacing: 100px;
     /* text-decoration: line-through; */
 }
 
@@ -35,6 +36,7 @@ body{
     padding: 20px;
     border-radius: 15px;
 }  
+
 
 .class {
     color:rgb(255, 255, 255);
@@ -77,8 +79,19 @@ body{
     border-radius: 5px;
 }
 
-.hearts {
+.music {
+    background-color: rgba(0, 0, 0, 0.697);
+    color: white;
+    font-family:'Jost', sans-serif;
+    width: 400\\\px;
+    padding: 20px;
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto; 
+}
+
+/* color of link */
+a {
+    color: white;
 }
